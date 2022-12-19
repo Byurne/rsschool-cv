@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Kanit-ExtraBold.ttf");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #444240;
+  background-color: rgb(14, 13, 13);
+}
+
+.header {}
+
+.main {
+  display: flex;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 30px;
+  font-size: 24px;
+  line-height: 50px;
+  color: whitesmoke;
+  transition: .3s;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: gold;
+}
+
+a {
+  text-decoration: none;
+  color: #95d442;
+}
+
+a:hover {
+  color: gold;
+}
+
+.main img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 15%;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.footer {
+  background-color: rgb(235, 243, 243);
+  color: black;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-list a {
+  color: black;
+}
+
+.footer-list a:hover {
+  color: red;
+}
+
+.footer img {
+  max-width: 80%;
+  height: auto;
+}
